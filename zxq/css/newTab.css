@@ -1,0 +1,76 @@
+
+body{
+    margin:0;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+#wrapper{
+    position: absolute;
+    top:0;
+    background: no-repeat center url(../img/backgrounds/1.jpg);
+    background-size: cover;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.hello{
+    position: absolute;
+    top:30px;
+    left:30px;
+    color:#fff;
+    font-size:28px;
+    font-weight: 700;
+    font-family:sans-serif;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.6);
+}
+.content{
+    position: absolute;
+    top:100px;
+    left:30px;
+    padding:10px;
+}
+
+.box{
+    width:150px;
+    height:50px;
+    background-color:rgba(255,255,255,0.4);
+    padding:10px;
+    margin:15px auto;
+    display: flex;
+    transition: all 0.3s linear;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.box:hover{
+    background-color:rgba(255,255,255,0.88);
+    transform: translateX(10px);
+    cursor: pointer;
+}
+.box img{
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    margin-right:20px;
+    margin-top:10px
+}
+.box span{
+    font-size: 16px;
+    text-decoration: none;
+    outline: 0;
+    line-height: 50px;
+}
+
+.scl{
+    position: fixed;
+    top:30px;
+    right: 30px;
+    cursor:pointer;
+}
+.scl img{
+    width:30px;
+    height:30px;
+}
